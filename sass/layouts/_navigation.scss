@@ -1,0 +1,27 @@
+.navigation {
+    background-color: $white;
+    width: 100%;
+    box-sizing: border-box;
+    &__logo {
+        @include shadow;
+        background-color: $white;
+        @include flex (row,center,space-between);
+        padding: 15px;
+        width: 100%;
+        box-sizing: border-box;
+        img {
+            width: 200px;
+        }
+        &__icon{
+            font-size: 30px;
+            position: absolute;
+            margin: 15px;
+            top: 5px;
+            left: 0;
+        }
+    }
+    &__a, a:link, a:visited, a:focus, a:hover, a:active{
+        color: black;
+       }
+
+}

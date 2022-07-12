@@ -1,0 +1,51 @@
+.card{
+    width: 90%;
+    height: 350px;
+    border-radius: 15px;
+    background-color: $white;
+    margin: 35px;
+    box-shadow: $shadow-effect;
+    position: relative;
+    margin-block-end: 40px;
+    
+    &__image{
+        height: 250px;
+        margin: 0 auto;
+        overflow: hidden;
+        border-radius: 15px 15px 0 0;
+        img{
+            max-width: 100%;
+            height: 100%
+            object-fit cover;
+        }
+    }
+    &__banner{
+        background-color: $mintgreen;
+        color:$darkmintgreen;
+        padding: 10px;
+        font-size: 18px;
+        width: 80px;
+        position: absolute;
+        right: 12px;
+        top: 12px;
+        border-radius: 3px;
+        text-align: center;
+        
+    }
+    &__title{
+        display: inline-block;
+        text-decoration: none;
+        margin: 8px;
+    }
+    &__description{
+        text-decoration: none;
+        padding-left: 8px;
+        margin: 0;
+    }
+    
+    &__a, a:link, a:visited, a:focus, a:hover, a:active{
+        text-decoration:none;
+        color: black;
+       }
+}
+

@@ -1,0 +1,49 @@
+.nav{
+    background-color: white;
+    height: 450px;   
+    &__item{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        border-radius: 18px;
+        background-color: $grey;
+        width: 90%;
+        height: 75px;
+        margin: 30px;
+        box-shadow: $shadow-effect;
+    }
+    &__item:hover{
+        background-color: $lavender;
+    }
+    &__number{
+        background-color: $purple;
+        color: $lightgrey;
+        height:25px;
+        width: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 100%;
+        margin-left: -15px;
+        margin-right: 10px;
+
+    }
+    &__icon{       
+        display: inline-block;
+        padding: 20px; 
+        color: $lightgrey;
+        font-size: 25px;    
+    }
+    &__icon:hover{
+        color: $purple;
+    }
+    &__content{
+        display: inline-block;
+    }
+    
+    &__a, a:link, a:visited, a:focus, a:hover, a:active{
+        color: black;
+        text-decoration:none; 
+       }
+   
+}
